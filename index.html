@@ -11,32 +11,32 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Auckland</option>
+        <option value="Europe/London">London</option>
+        <option value="America/New_York">New York</option>
+        <option value="Pacific/Auckland">Auckland</option>
       </select>
+      <div id="cities">
+        <div class="city" id="los-angeles">
+          <div>
+            <h2>Los Angeles &#127482;&#127480;</h2>
 
-      <div class="city" id="los-angeles">
-        <div>
-          <h2>Los Angeles &#127482;&#127480;</h2>
-
-          <div class="date"></div>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
 
-      <div class="city" id="paris">
-        <div>
-          <h2>Paris &#x1f1eb;&#x1f1f7;</h2>
+        <div class="city" id="paris">
+          <div>
+            <h2>Paris &#x1f1eb;&#x1f1f7;</h2>
 
-          <div class="date"></div>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
-
     <footer>
       This project was coded with ❤ by <strong>Aisa Thole</strong> and is
       <a href="https://github.com/Lizzy04/world-clock" target="_blank"
